@@ -1,0 +1,709 @@
+.parentcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    color: white;
+    background-color: rgb(57, 88, 11);
+    padding-top: 20px;
+}
+.nav-heading-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(pictures/81TyQXm3XwL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+.nav-title{
+    display: flex;
+    padding: 30px;
+    gap: 300px;
+}
+.nav-title h2{
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #f6f5fa; 
+    font-size: 20px;
+    font-weight: bold;
+  }
+.heading-button{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.heading-button h1{
+    font-size: 300%;
+}
+.heading-button p{
+    font-size: 110%;
+}
+.heading-button button{
+    padding: 10px;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+.fa-phone-volume{
+    color: white;
+}
+.hr-heading{
+    text-align: center;
+}
+#arrow{
+    width: 5%;
+}
+.image-content{
+    display: flex;
+    padding: 20px;
+   justify-content: space-around;
+}
+.content h4{
+    color: green;
+    font-size: 200%;
+}
+.content h1{
+    font-size: 300%;
+}
+.content p{
+    font-size: 120%;
+}
+.green-white-button{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.green-button button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+}
+.green-button svg{
+    color: white;
+}
+.white-button button{
+    padding: 15px;
+    border-radius: 30px;
+    width: 50%;
+}
+.icon-text{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(193, 225, 245);
+}
+.trophyicon-text{
+    display: flex;
+    gap: 4px;
+}
+.verifyicon-text{
+    display: flex;
+}
+.gifticon-text{
+    display: flex;
+}
+.headphone-text{
+    display: flex;
+}
+#trophy{
+    width: 40%;
+}
+#verify{
+    width: 90px;
+    padding-top: 30px;
+}
+#gift{
+    width: 100px;
+}
+#headphone{
+    width: 100px;
+}
+.heading-paragraph{
+    text-align: center;
+    padding: 30px;
+}
+.image-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.screen-printing img{
+    width: 70%;
+}
+.four-color img{
+    width: 113%;
+}
+.fa-arrow-right{
+    padding-left: 50px;
+}
+.paragraph-heading{
+   text-align: center;
+   padding: 40px;
+}
+.industry-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.fa-star{
+    color: rgb(16, 119, 16);
+    padding-right: 10px;
+}
+.content-image{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.content-image img{
+    rotate: 3deg;
+    width: 110%;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.heading{
+    text-align: center;
+    padding: 40px;
+}
+.fashion-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+#cloth-image{
+  width: 140%;
+  border-radius: 20px; 
+}
+#bed-image{
+  width: 170%;
+  border-radius: 20px;
+}
+#girl-image{
+ width: 170%;
+ border-radius: 20px;
+}
+.woman-image{
+    display: flex;
+    justify-content: center;
+}
+.woman-image img{
+    width:79% ;
+    margin-left: 160px;
+    height: 80vh;
+    border-radius: 20px;
+}
+.heading_paragraph{
+    text-align: center;
+    padding: 50px;
+}
+.location-image{
+    display: flex;
+    justify-content: center;
+}
+.location-image img{
+    width:79% ;
+    margin-left: 160px;
+    height: 80vh;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+footer{
+    background-color: rgb(8, 8, 43);
+    color: white;
+    padding-bottom: 30px;
+}
+.fa-envelope{
+    color: white;
+}
+.image-text-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.image-text-content img{
+    border-radius: 30px;
+}
+.phone-email{
+    display: flex;
+    gap: 20px;
+}
+.phone-email i{
+    margin-top: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+}
+.tradition-textile img{
+    width: 110%;
+}
+@media screen and (max-width: 600px) {
+    .parentcontainer{
+        display: flex;
+        margin-left: 2px;
+    }
+    .nav-heading-image{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(pictures/81TyQXm3XwL.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        position: relative;
+        width: 100%;
+    }
+    .nav-title{
+        display: flex;
+        padding: 3px;
+        gap: 10px;
+    }
+    .nav-title h2{
+        color: white;
+        font-size: 15px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 1px 0;
+      }
+      
+      .navbar ul {
+        list-style-type: none;
+        display: flex;
+      }
+      
+      .navbar ul li {
+        margin: 0 3px;
+      }
+      
+      .navbar ul li a {
+        text-decoration: none;
+        color: #f6f5fa; 
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .heading-button{
+        text-align: center;
+        color: white;
+        padding-top: 90px;
+    }
+    .heading-button h1{
+        font-size: 250%;
+    }
+    .heading-button p{
+        font-size: 90%;
+    }
+    .heading-button button{
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        border: none;
+        background-color: grey;
+        color: white;
+    }
+    .fa-phone-volume{
+        color: white;
+        padding-top: 5px;
+    }
+    .image-content{
+        display: flex;
+        padding: 2px;
+       flex-wrap: wrap;
+       margin-bottom: 15px;
+    }
+    .image-content img{
+        width: 94%;
+    }
+    .green-button button{
+        background-color: green;
+        color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 30px;
+        width: 90%;
+    }
+    .white-button button{
+        padding: 15px;
+        border-radius: 30px;
+        width: 87%;
+    }
+    .trophyicon-text{
+        display: flex;
+        gap: 4px;
+        font-size: 12px;
+    }
+    .verifyicon-text{
+        display: flex;
+        font-size: 12px;
+    }
+    .gifticon-text{
+        display: flex;
+        font-size: 12px;
+    }
+    .headphone-text{
+        display: flex;
+        font-size: 12px;
+    }
+    #trophy{
+        width: 60%;
+    }
+    #verify{
+        width: 60px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    #gift{
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    #headphone{
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    .icon-text{
+        display:block;
+        justify-content: space-around;
+        background-color: rgb(193, 225, 245);
+    }
+    .image-text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .screen-printing img{
+        width: 70%;
+        padding-left: 20px;
+    }
+    .four-color img{
+        width: 90%;
+    }
+    .industry-icons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2px;
+        
+    }
+    .industry-icons img{
+        width: 30%;
+    }
+    .content-image{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap-reverse;
+        padding: 10px;
+    }
+    .content-image img{
+        rotate: 3deg;
+        width: 100%;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .icons img{
+        width: 80%;
+    }
+    .fashion-images{
+        display: flex;
+       justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #cloth-image{
+        width: 170%;
+        border-radius: 20px; 
+      }
+      #bed-image{
+        width: 140%;
+        border-radius: 20px;
+      }
+      #girl-image{
+       width: 140%;
+       border-radius: 20px;
+      }
+      .woman-image{
+        display: flex;
+        justify-content: center;
+    }
+    .woman-image img{
+        width:95% ;
+        margin-left: 1px;
+        height: 50vh;
+        border-radius: 20px;
+    }
+    .location-image{
+        display: flex;
+        justify-content: center;
+    }
+    .location-image img{
+        width:99% ;
+        margin-left: 1px;
+        height: 40vh;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .image-text-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .tradition-textile img{
+        width: 80%;
+    }
+    .phone-email{
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+}
+.phone-email i{
+    margin-top: 8px;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 1124px) {
+    .parentcontainer{
+        display: flex;
+    }
+    .nav-heading-image{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(pictures/81TyQXm3XwL.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        position: relative;
+        width: 100%;
+    }
+    .nav-title{
+        display: flex;
+        padding: 30px;
+        gap: 30px;
+    }
+    .nav-title h2{
+        color: white;
+        font-size: 17px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+      }
+      
+      .navbar ul {
+        list-style-type: none;
+        display: flex;
+      }
+      
+      .navbar ul li {
+        margin: 0 15px;
+      }
+      
+      .navbar ul li a {
+        text-decoration: none;
+        color: #f6f5fa; 
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .heading-button{
+        text-align: center;
+        color: white;
+        padding-top: 90px;
+    }
+    .heading-button h1{
+        font-size: 300%;
+    }
+    .heading-button p{
+        font-size: 150%;
+    }
+    .heading-button button{
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        border: none;
+        background-color: grey;
+        color: white;
+    }
+    .fa-phone-volume{
+        color: white;
+        padding-top: 5px;
+    }
+    .image-content{
+        display: block;
+        padding: 2px;
+       flex-wrap: wrap;
+       margin-bottom: 45px;
+    }
+    .image-content img{
+        width: 94%;
+    }
+    .green-button button{
+        background-color: green;
+        color: white;
+        padding: 25px;
+        border: none;
+        border-radius: 30px;
+        width: 80%;
+    }
+    .white-button button{
+        padding: 25px;
+        border-radius: 30px;
+        width: 80%;
+    }
+    .trophyicon-text{
+        display: flex;
+        gap: 4px;
+        font-size: 12px;
+    }
+    .verifyicon-text{
+        display: flex;
+        font-size: 12px;
+    }
+    .gifticon-text{
+        display: flex;
+        font-size: 12px;
+    }
+    .headphone-text{
+        display: flex;
+        font-size: 12px;
+    }
+    #trophy{
+        width: 60%;
+    }
+    #verify{
+        width: 60px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    #gift{
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    #headphone{
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    .icon-text{
+        display:block;
+        justify-content: space-around;
+        background-color: rgb(193, 225, 245);
+    }
+    .image-text{
+        display: flex;
+        font-size: 12px;
+    }
+    .screen-printing img{
+        width: 60%;
+        padding-left: 2px;
+    }
+    .four-color img{
+        width: 60%;
+    }
+    .industry-icons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2px;
+        
+    }
+    .industry-icons img{
+        width: 30%;
+    }
+    .content-image{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        padding: 1px;
+    }
+    .content-image img{
+        rotate: 3deg;
+        width: 180%;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .icons img{
+        width: 80%;
+    }
+    .fashion-images{
+        display: flex;
+       justify-content: space-between;
+    
+    }
+    #cloth-image{
+        width: 90%;
+        border-radius: 20px; 
+      }
+      #bed-image{
+        width: 110%;
+        border-radius: 20px;
+      }
+      #girl-image{
+       width: 110%;
+       border-radius: 20px;
+      }
+      .woman-image{
+        display: flex;
+        justify-content: center;
+    }
+    .woman-image img{
+        width:95% ;
+        margin-left: 1px;
+        height: 50vh;
+        border-radius: 20px;
+    }
+    .location-image{
+        display: flex;
+        justify-content: center;
+    }
+    .location-image img{
+        width:99% ;
+        margin-left: 1px;
+        height: 40vh;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .image-text-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .tradition-textile img{
+        width: 80%;
+    }
+    .phone-email{
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+}
+.phone-email i{
+    margin-top: 8px;
+}
+}
